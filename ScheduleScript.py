@@ -7,7 +7,7 @@ timeout = time.time() + 60*14400 #minutes
 
 
 def job():
-    """Collecting weather data from National Weather Service for a particular location using its Latitude/Longitude
+    """Collecting Predicted weather data from National Weather Service for a particular location using its Latitude/Longitude
     This data is in the form of XML
     This code is collecting temperature in every 60 minutes . Collection of Data continues for 10 days"""
 
